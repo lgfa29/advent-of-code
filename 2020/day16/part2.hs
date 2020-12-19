@@ -55,7 +55,7 @@ main = do
   let fileName = if null args then "input.txt" else head args
   contents <- readFile fileName
   let input = parse fileName contents
-
+  putStr "Part 2: "
   case input of
     Right v  -> print (part2 v)
     Left err -> print err
