@@ -1,6 +1,12 @@
 input.txt
 sample*.txt
+
+# Haskell
 *.hi
 *.o
 part1
 part2
+
+# Rust
+main
+target
